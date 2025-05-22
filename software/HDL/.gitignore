@@ -1,0 +1,69 @@
+# ignore all files but .gitignore
+*.*
+!/.gitignore
+
+# gitignore for Quartus project folders
+
+# ignore Quartus generated folders
+db/*
+incremental_db/
+simulation/*
+timing/
+testbench/*
+output_files/*
+*_sim/
+
+# following files must be managed by git 
+# project files
+!*.qpf
+!*.qsf
+# source files
+!*.bdf
+!*.vhd
+!*.vhdl
+!*.v
+!*.sv
+!*.vht
+
+# memory init file
+!*.mif
+
+# .pof files
+!*.pof
+
+# IP core files
+!*.qip
+!*.sip
+!*.bsf
+
+# SOPC builder project source files
+!*.ptf
+!*.bsf
+
+# board description
+!**/class.ptf
+
+# sdc files:
+!*.sdc
+
+# tcl files:
+!*.tcl
+
+# simulator settings
+!*.do
+
+# text file located on the 'project' directory
+!/project/*.txt
+!/project/*.md
+!/project/*.csv
+
+# text file located on the rep's root
+!/*.txt
+!/*.md
+!/*.csv
+
+# diagrams on the rep's root
+!/*.svg
+!/*.png
+!/*.pdf
+!/*.js

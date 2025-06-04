@@ -4,6 +4,9 @@
 #プリント基板への部品実装のために必要な部品表と構成部品表が保存されます。</br>
 #構成部品表は現状google sheetsで管理されているので、URLリンクをこのreadmeに記入するようにします。</br>
 
+https://docs.google.com/spreadsheets/d/1AgysuI8_JUY7hIKeX8QCyVXA6I_T8JV4ObYrNBxV3HY/edit?usp=sharing
+
+
 （google sheetsをexcelフォーマットでエクスポートしてもいいが、互換性や保守性が気になるところ）
 #
 複数の部品表が関連する場合、その関連性（親子関係）をこのREADMEに記述する様にしてください。

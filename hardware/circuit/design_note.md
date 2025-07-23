@@ -45,6 +45,9 @@ DDSは、周波数決定レジスタに設定する値と基準クロック周�
 採用したのは、ストロベリー・リナックス社の「AD9834 小型DDSモジュールキット」です。このモジュールは、Analog Devices社のDDS-IC「AD9834」と特注の水晶発振子を搭載することで、周波数分解能を0.25Hz/LSBという扱いやすい値に設定しています。  
 また、差動出力に対応しているため、ノイズ対策の面でも有利です。
 
+<img src="/figures/Photo_DDS_Parts.jpeg" alt="DDS_photo1" width="300px">
+<img src="/figures/Photo_DDS_Solder.jpeg" alt="DDS_photo2" width="318px">
+
 ### デバイス仕様・定数の決定
 回路図にはこのDDSモジュールの設定について記載していないので、ここに記載しておきます。
 - メーカ、品名：[ストロベリーLinux　AD9834 小型DDSモジュールキット](https://strawberry-linux.com/catalog/items?code=57090)

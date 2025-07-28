@@ -7,6 +7,7 @@
 
 # 設計の概要
 ## ブロック図
+<img src="/figures/24ch_CoilDriver_BlockDiagram_revised.png" alt="ER-524_BlockDiagram" width="800px">
 
 ## 設計のポイント
 - **バッテリ動作**  

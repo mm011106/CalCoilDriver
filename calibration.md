@@ -8,7 +8,8 @@
 ---
 # 概要
 - キャリブレーション時の機器の接続
-(計測のブロック図)
+
+<img src="figures/CalCoilDriver_Cal_block.png" alt="Block Diagram for calibration" width="600px">
 
 ## キャリブレーションの目的
 

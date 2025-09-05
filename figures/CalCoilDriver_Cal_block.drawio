@@ -1,9 +1,115 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="27.0.1">
   <diagram name="ページ1" id="eNpPBbvagQEi5pVvmbtr">
-    <mxGraphModel>
+    <mxGraphModel dx="773" dy="918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="QweB1-pLcbAkrbCA5pPn-1" value="DUT" style="rounded=0;whiteSpace=wrap;html=1;direction=south;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="280" y="240" width="120" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="QweB1-pLcbAkrbCA5pPn-2" value="治具" style="rounded=0;whiteSpace=wrap;html=1;direction=south;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="520" y="240" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="QweB1-pLcbAkrbCA5pPn-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;startFill=0;curved=1;strokeWidth=3;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="QweB1-pLcbAkrbCA5pPn-3" target="QweB1-pLcbAkrbCA5pPn-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="270" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="760" y="270" />
+              <mxPoint x="760" y="460" />
+              <mxPoint x="470" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QweB1-pLcbAkrbCA5pPn-3" value="100Ω" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="260" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QweB1-pLcbAkrbCA5pPn-5" value="0Ω" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="320" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QweB1-pLcbAkrbCA5pPn-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;strokeWidth=3;" edge="1" parent="1" source="QweB1-pLcbAkrbCA5pPn-7" target="QweB1-pLcbAkrbCA5pPn-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QweB1-pLcbAkrbCA5pPn-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;endArrow=none;startFill=0;dashed=1;strokeWidth=3;" edge="1" parent="1" source="QweB1-pLcbAkrbCA5pPn-7" target="QweB1-pLcbAkrbCA5pPn-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QweB1-pLcbAkrbCA5pPn-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="260" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QweB1-pLcbAkrbCA5pPn-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;strokeWidth=3;" edge="1" parent="1" source="QweB1-pLcbAkrbCA5pPn-8" target="QweB1-pLcbAkrbCA5pPn-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QweB1-pLcbAkrbCA5pPn-30" value="SCSIケーブル" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QweB1-pLcbAkrbCA5pPn-10">
+          <mxGeometry x="0.1232" y="-1" relative="1" as="geometry">
+            <mxPoint x="-6" y="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QweB1-pLcbAkrbCA5pPn-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="260" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QweB1-pLcbAkrbCA5pPn-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="260" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QweB1-pLcbAkrbCA5pPn-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;startFill=0;curved=1;strokeWidth=3;" edge="1" parent="1" source="QweB1-pLcbAkrbCA5pPn-13" target="QweB1-pLcbAkrbCA5pPn-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="370" />
+              <mxPoint x="240" y="465" />
+              <mxPoint x="410" y="465" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QweB1-pLcbAkrbCA5pPn-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="360" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QweB1-pLcbAkrbCA5pPn-14" value="FFT" style="rounded=0;whiteSpace=wrap;html=1;direction=south;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="360" y="560" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="QweB1-pLcbAkrbCA5pPn-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="550" width="20" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="QweB1-pLcbAkrbCA5pPn-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="550" width="20" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="QweB1-pLcbAkrbCA5pPn-21" value="100Ω" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="610" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QweB1-pLcbAkrbCA5pPn-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;endArrow=none;startFill=0;" edge="1" parent="1" source="QweB1-pLcbAkrbCA5pPn-22" target="QweB1-pLcbAkrbCA5pPn-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QweB1-pLcbAkrbCA5pPn-22" value="DMM" style="rounded=0;whiteSpace=wrap;html=1;direction=south;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="770" y="600" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QweB1-pLcbAkrbCA5pPn-24" value="抵抗値測定" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="770" y="570" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QweB1-pLcbAkrbCA5pPn-26" value="コイルドライバ" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="335" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QweB1-pLcbAkrbCA5pPn-27" value="ドライブ&lt;br&gt;出力" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="390" y="240" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QweB1-pLcbAkrbCA5pPn-32" value="モニタ&lt;div&gt;出力&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="220" y="340" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QweB1-pLcbAkrbCA5pPn-33" value="CH1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="375" y="560" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QweB1-pLcbAkrbCA5pPn-35" value="&lt;div&gt;CH2&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="435" y="560" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QweB1-pLcbAkrbCA5pPn-36" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="560" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="QweB1-pLcbAkrbCA5pPn-37" value="終端抵抗" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="700.0038461538462" y="250" as="geometry">
+            <mxPoint x="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QweB1-pLcbAkrbCA5pPn-38" value="終端抵抗" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="670.0038461538462" y="600" as="geometry">
+            <mxPoint x="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

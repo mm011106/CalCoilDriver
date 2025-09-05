@@ -9,7 +9,7 @@ SQUID用と比べて電流値が大きかも。
 > 資料などについてコメント等あればDiscussionsに投稿ください。
 
 # 機器名
-## **キャリブレーションコイルドライバ　ER-524D**
+### **キャリブレーションコイルドライバ　ER-524D**
 
 <img src="figures/ER-524D_Perspective.png" alt="3DPerspective" width="400px">
 

@@ -80,7 +80,7 @@
         <mxCell id="Q6LvoUqMAAajnmm532Q1-6" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=or;" vertex="1" parent="1">
           <mxGeometry x="680" y="500" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Q6LvoUqMAAajnmm532Q1-16" value="3" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Q6LvoUqMAAajnmm532Q1-16" value="4" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="490" y="395" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Q6LvoUqMAAajnmm532Q1-17" value="Q" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">

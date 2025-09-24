@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.0">
   <diagram name="ページ1" id="NYXn5EWM33A1G-W-kC1i">
-    <mxGraphModel dx="120" dy="142" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="515" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -118,7 +118,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Q6LvoUqMAAajnmm532Q1-34" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="Q6LvoUqMAAajnmm532Q1-32">
+        <mxCell id="Q6LvoUqMAAajnmm532Q1-34" value="" style="endArrow=none;html=1;rounded=0;endFill=0;" edge="1" parent="1" target="Q6LvoUqMAAajnmm532Q1-32">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="640" y="530" as="sourcePoint" />
             <mxPoint x="780" y="560" as="targetPoint" />
@@ -127,6 +127,9 @@
         </mxCell>
         <mxCell id="Q6LvoUqMAAajnmm532Q1-32" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=1;fillStyle=solid;fillColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="637" y="527" width="6" height="6" as="geometry" />
+        </mxCell>
+        <mxCell id="Q6LvoUqMAAajnmm532Q1-36" value="SYNC" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="773" y="545" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

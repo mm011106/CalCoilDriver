@@ -34,7 +34,7 @@
         <mxCell id="D9AdO3M2kVD_GUAC84vx-4" value="MUX(1bit)" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
           <mxGeometry x="600" y="420" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="D9AdO3M2kVD_GUAC84vx-22" value="(3..5)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="D9AdO3M2kVD_GUAC84vx-22" value="(5..3)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="747" y="267" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="D9AdO3M2kVD_GUAC84vx-5" value="Decorder" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">

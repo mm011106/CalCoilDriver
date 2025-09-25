@@ -35,6 +35,11 @@
             <mxPoint x="16" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="D9AdO3M2kVD_GUAC84vx-51" value="ECD" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="D9AdO3M2kVD_GUAC84vx-8">
+          <mxGeometry x="-0.5755" y="1" relative="1" as="geometry">
+            <mxPoint x="-32" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="D9AdO3M2kVD_GUAC84vx-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="D9AdO3M2kVD_GUAC84vx-1" target="D9AdO3M2kVD_GUAC84vx-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -214,6 +219,21 @@
         </mxCell>
         <mxCell id="D9AdO3M2kVD_GUAC84vx-41" value="ROM size:&lt;div&gt;6bit/word&lt;/div&gt;&lt;div&gt;64word&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="380" y="330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D9AdO3M2kVD_GUAC84vx-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=oval;endFill=0;startArrow=none;startFill=0;" edge="1" parent="1" source="D9AdO3M2kVD_GUAC84vx-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="89.99999999999994" y="290.0392156862746" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D9AdO3M2kVD_GUAC84vx-53" value="CLK" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="D9AdO3M2kVD_GUAC84vx-52">
+          <mxGeometry x="0.9574" relative="1" as="geometry">
+            <mxPoint x="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D9AdO3M2kVD_GUAC84vx-56" value="CLK" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="D9AdO3M2kVD_GUAC84vx-52">
+          <mxGeometry x="-0.6224" relative="1" as="geometry">
+            <mxPoint x="26" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

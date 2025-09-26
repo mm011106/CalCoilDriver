@@ -14,7 +14,7 @@
 -- 				ライブラリをnumeric_stdに変更   コンフリクトを防止  変数の型指定の明確化
 -- 				Checked by modelSIM.
 --			REV 2.2 2020/09/01 Miyamoto
---				FSYNCがアサートされているときCLKをうごかさない（DDSデバイスのタイミング要求と整合）
+--				FSYNCがネゲートされているときCLKをうごかさない（DDSデバイスのタイミング要求と整合）
 --
 --	REF: AD9834 Data Sheet (Analog Devices)
 --		https://strawberry-linux.com/pub/AD9834_JP.pdf

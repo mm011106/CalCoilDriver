@@ -188,7 +188,7 @@ begin
 	AMP(0) 	<= not(SW(2));
 	AMP(1) 	<= '0';
 	
-	-- signal sorce selection
+	-- signal source selection
 	SEL_ANALOG 	<= not(SW(5));
 	SEL_EXT 	<= not(SW(1));
 	

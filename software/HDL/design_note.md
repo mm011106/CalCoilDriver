@@ -117,6 +117,31 @@ SPIにデータが出力される時のタイミングチャートを示しま�
   この信号がアサートされている間、コイル駆動をoffにしてバースト波を作成します。
   ECD(6): コイルの番号
   この番号は'0'から'コイル数−1'の範囲となります。この数字は0からインクリメントされるので、この値を元に実際にどのコイルをドライブするのかを"OUTPUT_PATCH"で決定します。
+
+この回路をインスタンス化する時のパラメータ指定例を示します。  
+ここでは、コイル数24、バースト波 ON:24＋OFF:1
+``` vhdl
+-- コイル数の定義
+  constant ECD_COUNT 	: integer :=24;   -- コイル数
+  constant ECD_W		: integer :=integer(Ceil(log(real(ECD_COUNT-1),2.0)));   -- コイル数を数えるカウンタの幅
+
+  constant BURST_MARK		: integer := 24;  -- バースト波の波数
+  constant BURST_SPACE	: integer := 1;  -- バースト波の休止波数
+
+-- インスタンス化
+  SEQUENCER: entity work.SEQUENCER
+    generic map (
+      ECD_NUMBER => ECD_COUNT,
+      ECD_Q_WIDTH => ECD_W, 
+      BURST_MARK => BURST_MARK,
+      BURST_SPACE => BURST_SPACE
+    )
+    
+    port map (  -- 入出力信号の接続
+      nRES => nRES, CLK => CLK,
+      SYNC => SYNC, INH => int_INH, ECD => ECD
+    );
+```
   
 #### 回路動作／設計のポイント
 バースト波の端数をカウントするQ_BURSTカウンタと、コイルの番号をカウントするQ_ECDの2つのカウンタを設定しています。
@@ -147,7 +172,7 @@ ROMの値は ```patch_table.mif``` というファイルにテキスト形式で
 
 ### ```Decorder```
 - **INPUT:** </br>
-  CHANNEL : コイル番号
+  CHANNEL(5..0) : コイル番号
 - **OUTPUT:** </br>
   CS(0)〜CS(6) : アナログマルチプレクサドライブ用チップセレクト信号
   CH(2..0) : アナログマルチプレクサドライブ用チャネル設定信号
@@ -157,7 +182,8 @@ ROMの値は ```patch_table.mif``` というファイルにテキスト形式で
 この信号によって制御されたアナログマルチプレクサにより、規定のバースト波が作られると共にコイルのスキャンが行われます。
 
 ## 注意事項
+コイル数、バースト波などの設定をパラメタ化して任意の組み合わせで合成できるようにしていますが、全ての設定値のコンパイルが成功することを確認していません。パラメタを変更した場合は動作を確認してからご利用になるのがいいと思います。
 
-## 変更履歴
+<!-- ## 変更履歴
 ##### 20xx/xx/xx Release1.0
-- リリース内容メモ
+- リリース内容メモ -->
